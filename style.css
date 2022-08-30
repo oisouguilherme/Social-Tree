@@ -1,0 +1,75 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --body-bg-color-hover:#ecdbfd;
+    --purple: #BB99DD;
+    --purple-hover:#9955dd; 
+}
+*{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page > img {
+    width: 20.0rem;
+    border-radius: 100%;
+    border: 2px solid #BB99DD;
+    padding: 2px;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.page {
+    margin: 4.5rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: var(--purple);
+    padding-top: 1.5rem;
+    padding-bottom: 4.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 2.5rem;
+    line-height: 24px;
+}
+
+a:hover {
+    color: var(--purple-hover);
+}
+
+ul li {
+    color: var(--purple);
+    list-style: none;
+    width: 32.0rem;
+    text-align: center;
+    border: 2px solid #BB99DD;
+    padding: 1.3rem;
+    border-radius: 4px;
+    margin-bottom: 2.0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+ul li:hover {
+    color: var(--purple-hover);
+    background: var(--body-bg-color-hover);
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 3.0rem;
+    margin-top: 2.5rem;
+}
+
+.page > a {
+    font-size: 16px;
+    line-height: 24px;
+}
